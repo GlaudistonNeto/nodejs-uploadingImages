@@ -1,0 +1,12 @@
+{
+  "name": "UpLoadingImages",
+  "version": "1.0.0",
+  "description": "A little project to upload images using node.js",
+  "main": "index.js",
+  "repository": "https://github.com/GlaudistonNeto/nodejs-uploadingImages.git",
+  "author": "GlaudistonNeto",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon /index.js"
+  }
+}
