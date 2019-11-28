@@ -1,0 +1,18 @@
+<%- include partials/header%>
+<body>
+    <%- include partials/navbar %><br />
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Form Upload</h1>
+                <div class="card-body">
+                    <form enctype="multipart/form-data" method="POST" action="/upload">
+                        <input type="file" name="file">
+                        <input type="submit" value="UPLOAD">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<%- include partials/footer %>
